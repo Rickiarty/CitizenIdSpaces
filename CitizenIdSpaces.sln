@@ -9,7 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ROCCitizenIdSpace", "ROCCit
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "方案項目", "方案項目", "{ACD8C46B-4382-4049-9DDE-007E0D5A7866}"
 	ProjectSection(SolutionItems) = preProject
-		DEMO\demo01.png = DEMO\demo01.png
+		DEMO\roc_demo01.png = DEMO\roc_demo01.png
+		DEMO\roc_demo02.png = DEMO\roc_demo02.png
 	EndProjectSection
 EndProject
 Global
