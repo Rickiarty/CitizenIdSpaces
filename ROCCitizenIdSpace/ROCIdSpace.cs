@@ -104,12 +104,12 @@ namespace ROCCitizenIdSpace
 			int[] digits = new int[11];
 			digits[0] = v / 10;
 			digits[1] = v % 10;
-			for (int i = 0; i < roc_id.Length; i += 1)
+			for (int i = 1; i < roc_id.Length; i += 1)
 			{
 				int digit = 0;
-				if (int.TryParse(prefix, out digit))
+				if (int.TryParse(roc_id[i].ToString(), out digit))
 				{
-					digits[i + 2] = digit;
+					digits[i + 1] = digit;
 				}
 				else
 				{
