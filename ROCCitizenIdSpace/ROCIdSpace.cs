@@ -98,6 +98,7 @@ namespace ROCCitizenIdSpace
 		/// <returns>是否有效</returns>
 		public static bool VerifyId(string roc_id)
 		{
+			if (string.IsNullOrWhiteSpace(roc_id)) return false;
 			string prefix = roc_id[0].ToString();
 			if (!A_to_I.Any(e => e.Key == prefix)) return false;
 			int v = A_to_I[prefix];
